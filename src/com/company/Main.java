@@ -10,9 +10,15 @@ Passenger person=new Passenger ("Rohini","New Delhi","Delhi",
 
 Flight SpiceJet=new Flight("A456","Spice Jet",500,78);
 
+// checkpoint 3 Test Case
+        Flight Indigo=new Flight("A986","Indigo",600,200);
+        // Indigo.flightNumber="A456"; (Error while accessing private variables)
+        Indigo.setAirline("British Airways");
+        Indigo.getAirline();
+
 
     }
-    
+
 
 
 }
